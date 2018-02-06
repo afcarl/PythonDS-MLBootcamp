@@ -23,6 +23,6 @@ df2.plot.bar()
 df1['A'].plot.hist(bins=50)
 df1.plot.line(x=df1.index, y='B', figsize=(12,3), lw=1)
 
-# c is setting the color of the plot.
+# c is comparing x and y to c,
 
-df1.plot.scatter(x='A', y='B', c='C', cmap='plasma')
+df1.plot.scatter(x='A', y='B', c='C', cmap='magma')
