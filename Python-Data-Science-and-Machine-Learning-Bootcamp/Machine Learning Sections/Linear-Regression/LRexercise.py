@@ -84,3 +84,7 @@ metrics.explained_variance_score(y_test, predictions)
 
 
 sns.distplot((y_test-predictions), bins=50)
+
+coeffecients = pd.DataFrame(lm.coef_,X.columns)
+coeffecients.columns = ['Coeffecient']
+coeffecients
